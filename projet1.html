@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Playball', cursive;
+        color: white;
+        margin: 0;
+        padding: 0;
+        background-image: url("imag1.jpg");
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 43px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 123px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 5px;
+        font-size: 22px;
+    }
+
+    .cont {
+        /* border: 2px solid violet; */
+        width: 34%;
+        height: 453px;
+        margin: 99px 98px;
+        padding: 22px 22px;
+        border-radius: 22px;
+
+    }
+
+    .cont h1 {
+        text-align: center;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 310px;
+        font-size: 22px;
+        border: 2px solid blue;
+        border-radius: 10px;
+        padding: 8px;
+        margin: 6px auto;
+        font-family: 'Playball', cursive;
+
+
+    }
+
+    .cont button {
+        display: block;
+        width: 310px;
+        margin: 20px auto;
+        font-size: 28px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        right: 43px;
+        top: 20px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Playball', cursive;
+
+    }
+
+    .btn:hover {
+        background-color: red;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(45, 20, 189);
+    }
+</style>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <img src="imag2.jpg" alt="">
+            <div>harry gym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">fitnes calculet </a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">call us</button><button class="btn">email contact</button>
+        </div>
+    </header>
+    <div class="cont">
+        <h1>welcome to my gym</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your contact">
+            </div>
+
+
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your @email">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="enter your locality">
+            </div>
+
+            <button class="btn">submit</button>
+        </form>
+    </div>
+
+    </header>
+</body>
+
+</html>
